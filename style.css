@@ -135,6 +135,10 @@ footer {
   color: #d5d5d5;
 }
 
+.footer-p {
+  font-size: 18px;
+}
+
 /* Media Queries for further responsiveness */
 @media (max-width: 768px) {
     .poster-title {
@@ -152,6 +156,10 @@ footer {
 
     .text-container p, .text-container-down p {
         font-size: 22px;
+    }
+
+    .footer-p {
+      font-size: 12px;
     }
 }
 
@@ -171,5 +179,9 @@ footer {
 
     .text-container p, .text-container-down p {
         font-size: 13px
+    }
+
+    .footer-p {
+      font-size: 8px;
     }
 }
