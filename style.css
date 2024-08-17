@@ -107,7 +107,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 50px 20px 20px 20px;
+
 }
 
 .text-container-down {
@@ -132,4 +133,43 @@ footer {
   margin: 0px, auto;
   background-color: #000;
   color: #d5d5d5;
+}
+
+/* Media Queries for further responsiveness */
+@media (max-width: 768px) {
+    .poster-title {
+        font-size: 28px;
+    }
+
+    .para-container-description {
+        font-size: 28px;
+    }
+
+    .text-container h2, .text-container-down h2 {
+        font-size: 24px;
+        /* font-size: 4.5vw; */
+    }
+
+    .text-container p, .text-container-down p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .poster-title {
+        font-size: 18px;
+        /* font-size: 6vw; */
+    }
+
+    .para-container-description {
+        font-size: 18px;
+    }
+
+    .text-container h2, .text-container-down h2 {
+        font-size: 15px;
+    }
+
+    .text-container p, .text-container-down p {
+        font-size: 13px
+    }
 }
